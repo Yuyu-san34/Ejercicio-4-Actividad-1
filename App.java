@@ -1,24 +1,24 @@
 public class Trapecio{
-    int pequeña;
+    int pequena;
     int grande;
     int altura;
     int izquierda;
     int derecha;
-    @param pequeña;
+    @param pequena;
     @paran grande; 
     @paran altura;
     @param izquierda;
     @param derecha;
-public Trapecio(int grande,int pequeña,int altura,int derecha,int izquierda) {
+public Trapecio(int grande,int pequena,int altura,int derecha,int izquierda) {
     this.izquierda = izquierda;
     this.derecha = derecha;
-    this.pequeña = pequeña;
+    this.pequena = pequena;
     this.grande = grande;
     this.altura = altura;
     double calcularArea(){
-        reutrun ((pequeña+grande)*altura/2);
+        reutrun ((pequena+grande)*altura/2);
     double calcularPerímetro(){
-        return (izquierda+derecha+pequeña+grande);
+        return (izquierda+derecha+pequena+grande);
     }
 }
 
